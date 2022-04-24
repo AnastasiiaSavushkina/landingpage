@@ -1,0 +1,231 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1 {
+  color: #9db0d1;
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  font-family: 'Verdana';
+  font-size: 20px;
+}
+.bg{
+  background: #87C6EB;
+}
+.btn-primiry{
+  background: #EBAC87;
+  height: 80px;
+  width: 267px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Arapey';
+  color: #FFFFFF;
+  border: 0;
+}
+.btn-secendary{
+  background: #FFFFFF;
+  height: 80px;
+  width: 220px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Arapey';
+  color: #EBAC87;
+  border: 0;
+
+}
+.list{
+  font-family: 'Verdana';
+  font-size: 20px;
+  color: #9DB0D1;
+
+}
+.background{
+  background: #EBAC87;
+  width: 310px;
+/*  margin-left: 20px;
+*/}
+.bg-gradient{
+  background: linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  height: 200px;
+}
+.circle{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 0;
+  background: #EBAC87;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.opacity-40{
+  opacity: 0.4;
+}
+.opacity-60{
+  opacity: 0.6;
+}
+.circle-big{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 0;
+  background: #EBAC87;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.card{
+  width: 350px;
+  height: 560px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  float: left;
+  display: block;
+  margin-right: 75px
+}
+.photo{
+  width: 310px;
+  margin-bottom: 0
+  padding-bottom: 0;
+}
+.margin-15{
+  margin-left: 15px
+}
+.margin-20{
+   margin-left: 20px;
+}
+.margin-50{
+  margin: 50px 0 50px 0;
+}
+.margin-75{
+  margin: 75px 0 50px 0;
+
+}
+.margin-100{
+  margin-top: 100px;
+}
+.margin-120{
+  margin-left: 120px;
+}
+.check{
+  width: 60px;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+.text-capitalize{
+  text-transform: uppercase;
+}
+.text-center{
+  text-align: center;
+}
+.important{
+  font-weight: bold;
+}
+.italic{
+  text-decoration: underline;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+.font-30{
+  font-family: 'Verdana';
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.font-60{
+  font-family: 'Verdana';
+  font-size: 60px;
+  color: #FFFFFF;
+}
+.font-white{
+  color: #FFFFFF;
+}
+.caption {
+  background: url("../img/cloud.png") repeat-x top / auto 200px,
+  linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 250px 120px 50px;
+}
+.mountan {
+  background: url("../img/photo04.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 475px; 
+  width: auto;
+}
+.left{
+  width: 600px;
+}
+.button-down{
+  display: flex;
+  justify-content: space-between; 
+}
+.position-bottom{
+  float: bottom;
+}
+.position-right{
+  float: right;
+  bottom: 0;
+  margin-right: 120px;
+}
+
+.bullet {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #9DB0D1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
