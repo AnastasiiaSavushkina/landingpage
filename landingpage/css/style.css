@@ -1,0 +1,298 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1 {
+  color: #9db0d1;
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  font-family: 'Verdana';
+  font-size: 20px;
+}
+
+.bg{
+  background: #87C6EB;
+}
+
+.wight-centre{
+  font-size: 20px;
+  line-height: 25px;
+  width: 1024px;
+  text-align: center;
+  margin: 50px auto 50px auto; 
+}
+
+.btn {
+  background: #EBAC87;
+  color: #FFFFFF;
+  font-family: Arapey;
+  font-size: 30px;
+  line-height: 32px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 0;
+  padding: 24px 50px;
+  cursor: pointer;
+}
+
+
+.btn-secendary{
+  background: #FFFFFF;
+  height: 80px;
+  width: 220px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Arapey';
+  color: #EBAC87;
+  border: 0;
+}
+.list{
+  color: #000000;
+  line-height: 24px;
+  text-decoration: none;
+  margin: 0 0 48px 0;
+  font-family: 'Verdana';
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 25px 0 25px;
+}
+.icon-check {
+  background: #9DB0D1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 17px 15px 18px 15px;
+  display: block;
+  margin: 0 15px 0 0;
+}
+
+.background{
+  width: 310px;
+  background: #EBAC87;
+  margin: 0 0 20px;
+}
+
+.bg-gradient{
+  background: linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  height: 200px;
+}
+
+.circle{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 0;
+  background: #EBAC87;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.opacity-40{
+  opacity: 0.4;
+}
+
+.opacity-60{
+  opacity: 0.6;
+}
+
+.circle-big{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 0;
+  background: #EBAC87;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card{
+  width: 350px;
+  height: 560px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.photo{
+  width: 100%;
+  display: block
+}
+
+.margin-15{
+  margin-left: 15px
+}
+
+.margin-20{
+   margin-left: 20px;
+}
+
+.margin-50{
+  margin: 50px 0 50px 0;
+}
+
+.margin-75{
+  margin: 75px 0 50px 0;
+
+}
+
+.margin-100{
+  margin-top: 100px;
+}
+
+.margin-120{
+  margin-left: 120px;
+}
+
+.check{
+  width: 60px;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.text-capitalize{
+  text-transform: uppercase;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.important{
+  font-weight: bold;
+}
+
+.text-link{
+  text-decoration: underline;
+  color: #000
+}
+
+.btn-center{
+  margin: 0 auto 50px auto;
+  display: block;
+}
+
+.center{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto 35px auto;
+  justify-content: space-between;
+}
+
+.font-30{
+  font-family: 'Verdana';
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.font-60{
+  font-family: 'Verdana';
+  font-size: 60px;
+  color: #FFFFFF;
+}
+
+.font-white{
+  color: #FFFFFF;
+}
+
+.caption {
+  background: url("../img/cloud.png") repeat-x top / auto 200px,
+  linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 250px 120px 50px;
+}
+
+.mountan {
+   width: 1200px;
+  margin: 0 auto;
+  background: url(../img/photo04.png) bottom right / auto 475px no-repeat;
+  min-height: 475px;
+  padding: 40px 0 0 0;
+}
+
+.left{
+  width: 600px;
+}
+
+.button-down{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0 50px 0;
+}
+.position-bottom{
+  float: bottom;
+}
+
+.position-right{
+  display: flex
+  justify-items: flex-end
+}
+
+.bullet {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #9DB0D1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position-right a {
+    text-decoration: none;
+    margin: 0 0 0 32px;
+}
